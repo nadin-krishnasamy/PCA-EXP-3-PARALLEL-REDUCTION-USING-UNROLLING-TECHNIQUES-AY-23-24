@@ -377,5 +377,7 @@ int main(int argc, char **argv)
 ```
 ## OUTPUT:
 
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/0f22d06d-0af7-4dc8-b58b-b0b5c79677d4" />
+
 ## RESULT:
-Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that _________ has executed with less elapsed time than _____________ with blocks_____,______.
+Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that reduceUnrolling16 has executed with less elapsed time than reduceUnrolling8 with blocks 512, grid 2048 (for unrolling 16) and grid 4096 (for unrolling 8).
